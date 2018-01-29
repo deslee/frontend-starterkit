@@ -1,0 +1,17 @@
+{
+  "name": "frontend-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "http-server": "http-server",
+    "livereload": "livereload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "livereload": "^0.6.3"
+  }
+}
