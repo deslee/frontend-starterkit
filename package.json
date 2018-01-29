@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "concurrently --kill-others \"npm run livereload\" \"npm run http-server\"",
     "http-server": "http-server",
     "livereload": "livereload",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^3.5.1",
     "http-server": "^0.11.1",
     "livereload": "^0.6.3"
   }
